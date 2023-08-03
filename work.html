@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Blog</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: 'Heebo', sans-serif;
+        }
+        .menu {
+            height: 40px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        nav {
+            margin: 5px;
+            translate: -15px;
+            width: 150px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .work {
+            height: calc(100vh- 90px);
+            margin: 20px 300px;
+        }
+
+        .date {
+            width: 100px;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .year {
+            background-color: black;
+            color: white;
+            padding: 0 6px 0;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+
+        .dashboard {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .sub {
+            color: gray;
+        }
+
+        .icon {
+            width: 250px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .about {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 50px;
+        }
+
+        hr {
+            width: 100%;
+            margin: 10px 0;
+        }
+
+        i {
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <nav>
+            <a href="./work.html">Works</a>
+            <a href="./blog.html">Blog</a>
+            <a href="./index.html">Contact</a>
+        </nav>
+    </div>
+    <div class="work">
+        <h1>Work</h1>
+        <br>
+        <div class="dashboard">
+            <img src="https://picsum.photos/200/150" alt="pic1" style="margin-right: 10px;">
+            <div class="con1">
+                <h2>Designing Dashboards</h2>
+                <br>
+                <div class="date">
+                    <p class="year">2020</p>
+                    <p class="sub">Dashboard</p>
+                </div>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae numquam accusantium ullam molestias,
+                    illo dignissimos magni laudantium a nemo culpa?</p>
+            </div>
+        </div>
+        <hr style="margin: 20px 0px;">
+        <div class="dashboard">
+            <img src="https://picsum.photos/200/150" alt="pic1" style="margin-right: 10px;">
+            <div class="con1">
+                <h2>Vibrant Portraits of 2020</h2>
+                <br>
+                <div class="date">
+                    <p class="year">2020</p>
+                    <p class="sub">Illustration</p>
+                </div>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab laudantium nostrum vitae, ad totam aut
+                    distinctio quasi qui tenetur consequuntur?</p>
+            </div>
+        </div>
+        <hr style="margin: 20px 0px;">
+        <div class="dashboard">
+            <img src="https://picsum.photos/200/150" alt="pic1" style="margin-right: 10px;">
+            <div class="con1">
+                <h2>36 Days of Malayalam type</h2>
+                <br>
+                <div class="date">
+                    <p class="year">2020</p>
+                    <p class="sub">Typography</p>
+                </div>
+                <br>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+        </div>
+        <hr style="margin: 20px 0px;">
+    </div>
+    <div class="about">
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+        <p>Copyright ©2023 All rights reserved</p>
+    </div>
+</body>
+
+</html>

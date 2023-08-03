@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.menu {
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav {
+    margin: 5px;
+    translate: -15px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.profile {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 100px 200px 50px;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+p.button {
+    color: white;
+    background-color: salmon;
+    padding: 8px;
+}
+.screen {
+    background-color: rgba(127, 255, 212, 0.70);
+}
+.post {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 ;
+}
+.note {
+    display: flex;
+    justify-content: space-between  ;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.doc {
+    background-color: white;
+    padding: 20px ;
+    max-width: 35vw;
+    margin-bottom: 20px;
+}
+.work {
+    margin: 20px 200px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+}
+.date {
+    width: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+.year {
+    background-color: black;
+    color: white;
+    padding:0 6px 0;
+    margin-right: 20px;
+}
+.dashboard {
+    display: flex;
+    justify-content: flex-start;
+}
+.sub {
+    color: gray;
+}
+
+i {
+    transform: scale(1.5);
+}
+
+.icon {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    height: 50px;
+}
